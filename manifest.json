@@ -1,0 +1,13 @@
+{
+  "name": "Dr. Monkey",
+  "description": "Habit Tracker Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/monkey-icon.png"
+  },
+  "permissions": [
+    "alarms", "storage", "notifications"
+  ]
+}

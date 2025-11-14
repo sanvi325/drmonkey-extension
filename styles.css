@@ -1,0 +1,31 @@
+body{
+  padding: 25px;
+}
+div .container{
+  width: 600px;
+  height: 800px;
+  margin: 0;
+}
+.title {
+	color: #77560b;
+}
+.h1{
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.button {
+    background-color: #f0e68c;
+    border: green;
+    color: black;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Monospace", monospace;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
