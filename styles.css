@@ -1,11 +1,24 @@
 body{
   padding: 25px;
 }
+/*
 div .container{
   width: 600px;
   height: 800px;
   margin: 0;
 }
+*/
+/* use a proper container selector and flexbox to center content */
+div .containerButton {
+/* fill the viewport (subtract body padding if you want) */
+  display: flex;
+  align-items: center;    /* vertical centering */
+  justify-content: center;/* horizontal centering */
+  flex-direction: column; /* stack title + buttons vertically */
+  height: 100vh;
+  gap: 12px;          /* space between title and buttons */
+}
+
 .title {
 	color: #77560b;
 }
@@ -19,11 +32,11 @@ div .container{
     background-color: #f0e68c;
     border: green;
     color: black;
-    padding: 10px 50px;
+    padding: 10px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     font-family: "Monospace", monospace;
     margin: 4px 2px;
     cursor: pointer;
